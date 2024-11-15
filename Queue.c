@@ -2,7 +2,6 @@
 **This queue is insert(Enqueue) from the rear and delete (dequeue) from the front
 */
 
-#include <stdio.h>
 #include <stdbool.h>
 
 #define SIZE 10
@@ -14,7 +13,8 @@ int rear = -1;
 bool isFull()
 {
     if (rear == SIZE - 1)
-        return true;
+        ret#include <stdio.h>
+urn true;
 
     else
         return false;
