@@ -36,7 +36,7 @@ void enqueue(int data)
 
     else if (isEmpty())
     {
-        front = rear = -1;
+        front = rear = 0;
         Queue[rear] = data;
     }
 
@@ -64,7 +64,7 @@ void dequeue()
 }
 
 void display()
-{
+{   
     if (isEmpty())
     {
         printf("Queue is Underflow.");
