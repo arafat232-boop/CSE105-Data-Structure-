@@ -36,7 +36,7 @@ void enqueue(int data)
 
     else if (isEmpty())
     {
-        front = rear = 0;
+        front = rear = -1;
         Queue[rear] = data;
     }
 
@@ -54,7 +54,7 @@ void dequeue()
 
     else if (front == rear)
     {
-        front = rear = -1;
+        front = rear = 0;
     }
 
     else
